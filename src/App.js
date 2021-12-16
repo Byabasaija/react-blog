@@ -1,9 +1,9 @@
 import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { Home } from './pages/Home';
-import { About } from './pages/About';
-import { Articles } from './pages/Articles';
+import { Home } from './components/Home';
+import { About } from './components/About';
+import { Articles } from './components/Articles';
 
 const Heading = styled.h1`
   color: green;
